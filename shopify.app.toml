@@ -3,7 +3,7 @@
 client_id = "107bb37d3aed7611a0172bbcf05ae275"
 name = "node-remix"
 handle = "node-remix-1"
-application_url = "https://adjacent-minute-rangers-wide.trycloudflare.com"
+application_url = "https://node-remix-test.onrender.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_inventory,read_orders,read_products,write_inventory,write_product
 
 [auth]
 redirect_urls = [
-  "https://adjacent-minute-rangers-wide.trycloudflare.com/auth/callback",
-  "https://adjacent-minute-rangers-wide.trycloudflare.com/auth/shopify/callback",
-  "https://adjacent-minute-rangers-wide.trycloudflare.com/api/auth/callback"
+  "https://node-remix-test.onrender.com/auth/callback",
+  "https://node-remix-test.onrender.com/auth/shopify/callback",
+  "https://node-remix-test.onrender.com/api/auth/callback"
 ]
 
 [webhooks]
